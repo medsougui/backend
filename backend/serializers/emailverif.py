@@ -9,7 +9,7 @@ def send_verification_email(email: str) -> int:
     
     # Email details
     subject = "Verify Your Email Address"
-    from_email = settings.EMAIL_HOST_USER  # Sender's email address
+    from_email = "raices naturales"  # Sender's email address
 
     # Plain text fallback (for clients that don't support HTML emails)
     text_content = f"Use the following code to verify your email address: {code}"
